@@ -16,6 +16,7 @@
 		7C91A2981CA21C5B0030F66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C91A2961CA21C5B0030F66A /* LaunchScreen.storyboard */; };
 		7C91A2A31CA21C5B0030F66A /* PowerWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C91A2A21CA21C5B0030F66A /* PowerWordsTests.m */; };
 		7C91A2AE1CA21C5B0030F66A /* PowerWordsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C91A2AD1CA21C5B0030F66A /* PowerWordsUITests.m */; };
+		7C91A2BD1CA2251A0030F66A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C91A2BC1CA2251A0030F66A /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7C91A2A91CA21C5B0030F66A /* PowerWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C91A2AD1CA21C5B0030F66A /* PowerWordsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerWordsUITests.m; sourceTree = "<group>"; };
 		7C91A2AF1CA21C5B0030F66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C91A2BB1CA2251A0030F66A /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7C91A2BC1CA2251A0030F66A /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7C91A28C1CA21C5B0030F66A /* FirstViewController.m */,
 				7C91A28E1CA21C5B0030F66A /* SecondViewController.h */,
 				7C91A28F1CA21C5B0030F66A /* SecondViewController.m */,
+				7C91A2BB1CA2251A0030F66A /* ThirdViewController.h */,
+				7C91A2BC1CA2251A0030F66A /* ThirdViewController.m */,
 				7C91A2911CA21C5B0030F66A /* Main.storyboard */,
 				7C91A2941CA21C5B0030F66A /* Assets.xcassets */,
 				7C91A2961CA21C5B0030F66A /* LaunchScreen.storyboard */,
@@ -212,6 +217,7 @@
 				TargetAttributes = {
 					7C91A2811CA21C5B0030F66A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = X8AJKS4Y4R;
 					};
 					7C91A29D1CA21C5B0030F66A = {
 						CreatedOnToolsVersion = 7.3;
@@ -276,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C91A2901CA21C5B0030F66A /* SecondViewController.m in Sources */,
+				7C91A2BD1CA2251A0030F66A /* ThirdViewController.m in Sources */,
 				7C91A28A1CA21C5B0030F66A /* AppDelegate.m in Sources */,
 				7C91A28D1CA21C5B0030F66A /* FirstViewController.m in Sources */,
 				7C91A2871CA21C5B0030F66A /* main.m in Sources */,
@@ -421,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PowerWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visceralorigami.PowerWords;
@@ -432,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PowerWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visceralorigami.PowerWords;
